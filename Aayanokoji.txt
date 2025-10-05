@@ -1,0 +1,5 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family:system-ui,Arial}
+body{background:#f9f9f9;color:#222;line-height:1.6;padding:20px}
+.site-header{background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.1);margin-bottom:20px}
+.content{background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.05)}
+.site-footer{text-align:center;margin-top:20px;color:#666}

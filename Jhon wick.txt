@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Meri Pehli Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Meri Pehli Website</h1>
+    <p>Welcome Bhai! Ye meri pehli website hai 😄</p>
+  </header>
+
+  <main class="content">
+    <h2>About Me</h2>
+    <p>Main website banana seekh raha hoon. Ye free site hai!</p>
+  </main>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Mera Naam
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
